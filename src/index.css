@@ -1,0 +1,22 @@
+.container {
+  max-width: 500px;
+}
+
+.task-form {
+  border: 1px solid #ececec;
+  border-radius: 10px;
+}
+
+.todo-card {
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+.todo-card__header {
+}
+
+.todo-card__title {
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
